@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  paradiso.api:
+    depends_on:
+        - "sqlserver"
+    image: ${DOCKER_REGISTRY-}paradisoapi
+    build:
+      context: .
+      dockerfile: Paradiso.API/Dockerfile
+    ports:
+        - "5000:5000"
+    environment:
+        ASPNETCORE_URLS: "http://+:5000"
+
+  storage:
+    container_name: 'Paradiso.API.Storage'
+    image: mcr.microsoft.com/azure-storage/azurite
+    ports:
+        - "10000:10000"
+        - "10001:10001"
+        - "10002:10002"
+
+  sqlserver:
+    container_name: 'Paradiso.API.Mssql'
+    restart: always
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+        MSSQL_SA_PASSWORD: "paradiso123!@"
+        ACCEPT_EULA: "Y"
+        MSSQL_PID: "Developer"
+    ports:
+        - "1433:1433" 
+    volumes:
+        - ../volumes/mssql_data:/var/opt/mssql/data

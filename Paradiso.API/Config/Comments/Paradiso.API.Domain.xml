@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Paradiso.API.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:Paradiso.API.Domain.Models.Auxiliars.AuxiliarGetParams.AreaGetParams.Area">
+            <summary>
+            Id(s) de Area. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Auxiliars.AuxiliarGetParams.CityGetParams.City">
+            <summary>
+            Id(s) de Cidade. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Auxiliars.AuxiliarGetParams.CityGetParams.State">
+            <summary>
+            Id(s) do Estado. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Auxiliars.AuxiliarGetParams.GenreGetParams.Genre">
+            <summary>
+            Id(s) do Gênero. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Auxiliars.AuxiliarGetParams.KindMovieGetParams.KindMovie">
+            <summary>
+            Id(s) do Tipo de Filme. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Auxiliars.AuxiliarGetParams.StateGetParams.State">
+            <summary>
+            Id(s) do Estado. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.Id">
+            <summary>
+            Id(s) de Movie. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.Name">
+            <summary>
+            Nome(s) de Movie. Uma string de nome(s) separada por virgula (Ex: 'nome,nome')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.MinYear">
+            <summary>
+            Ano mínimo do lançamento, não passar máxima irá trazer maior ou igual a mínima
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.MaxYear">
+            <summary>
+             Ano máximo do lançamento, não passar mínima irá trazer menor ou igual a máxima
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.HasCopyright">
+            <summary>
+            True para os que têm direitos autorais, false para os que não têm
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.KindMovie">
+            <summary>
+            Id(s) do Tipo do Filme. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.Genre">
+            <summary>
+            Gênero do contéudo
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.User">
+            <summary>
+            Id(s) do usuário. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.Rows">
+            <summary>
+            Quantidade de objetos na requisição
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Movies.MovieGetParams.Page">
+            <summary>
+            Página da requisição
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Photos.PhotoGetParams.Id">
+            <summary>
+            Id(s) de Photo. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Photos.PhotoGetParams.Name">
+            <summary>
+            Nome(s) de Photo. Uma string de nome(s) separada por virgula (Ex: 'nome,nome')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Photos.PhotoGetParams.MinYear">
+            <summary>
+            Ano mínimo do lançamento, não passar máxima irá trazer maior ou igual a mínima
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Photos.PhotoGetParams.MaxYear">
+            <summary>
+             Ano máximo do lançamento, não passar mínima irá trazer menor ou igual a máxima
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Photos.PhotoGetParams.HasCopyright">
+            <summary>
+            True para os que têm direitos autorais, false para os que não têm
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Photos.PhotoGetParams.Genre">
+            <summary>
+            Gênero do contéudo
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Photos.PhotoGetParams.User">
+            <summary>
+            Id(s) do usuário. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Photos.PhotoGetParams.Rows">
+            <summary>
+            Quantidade de objetos na requisição
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Photos.PhotoGetParams.Page">
+            <summary>
+            Página da requisição
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.Id">
+            <summary>
+            Id(s) do Script. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.Name">
+            <summary>
+            Nome(s) de Script. Uma string de nome(s) separada por virgula (Ex: 'nome,nome')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.MinYear">
+            <summary>
+            Ano mínimo do lançamento, não passar máxima irá trazer maior ou igual a mínima
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.MaxYear">
+            <summary>
+             Ano máximo do lançamento, não passar mínima irá trazer menor ou igual a máxima
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.IsComplete">
+            <summary>
+            True para os scrits completos, false para os nãoa terminados
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.HasCopyright">
+            <summary>
+            True para os que têm direitos autorais, false para os que não têm
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.Genre">
+            <summary>
+            Gênero do contéudo
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.User">
+            <summary>
+            Id(s) do usuário. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.Rows">
+            <summary>
+            Quantidade de objetos na requisição
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Scripts.ScriptGetParams.Page">
+            <summary>
+            Página da requisição
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.SoundTracks.SoundTrackGetParams.Id">
+            <summary>
+            Id(s) de SoundTrack. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.SoundTracks.SoundTrackGetParams.Name">
+            <summary>
+            Nome(s) de SoundTrack. Uma string de nome(s) separada por virgula (Ex: 'nome,nome')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.SoundTracks.SoundTrackGetParams.MinYear">
+            <summary>
+            Ano mínimo do lançamento, não passar máxima irá trazer maior ou igual a mínima
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.SoundTracks.SoundTrackGetParams.MaxYear">
+            <summary>
+             Ano máximo do lançamento, não passar mínima irá trazer menor ou igual a máxima
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.SoundTracks.SoundTrackGetParams.HasCopyright">
+            <summary>
+            True para os que têm direitos autorais, false para os que não têm
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.SoundTracks.SoundTrackGetParams.Genre">
+            <summary>
+            Gênero do contéudo
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.SoundTracks.SoundTrackGetParams.User">
+            <summary>
+            Id(s) do usuário. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.SoundTracks.SoundTrackGetParams.Rows">
+            <summary>
+            Quantidade de objetos na requisição
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.SoundTracks.SoundTrackGetParams.Page">
+            <summary>
+            Página da requisição
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.Id">
+            <summary>
+            Id(s) do usuário. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.Name">
+            <summary>
+            Nome(s) de usuário. Uma string de nome(s) de usuário separada por virgula (Ex: 'nome,nome')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.Gender">
+            <summary>
+            O gênero de usuário
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.MinAge">
+            <summary>
+            Idade minima de usuário, não passar idade máxima irá trazer idade maior ou igual a mínima
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.MaxAge">
+            <summary>
+            Idade máxima de usuário, não passar idade mínima irá trazer idade menor ou igual
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.IsCreator">
+            <summary>
+            True para criador, false para produtor
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.Area">
+            <summary>
+            Área(s) de atuação de usuário. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.City">
+            <summary>
+            Cidade. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.State">
+            <summary>
+            Estado. Uma string de Guids separada por virgula (Ex: 'guid,guid')
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.Rows">
+            <summary>
+            Quantidade de objetos na requisição
+            </summary>
+        </member>
+        <member name="P:Paradiso.API.Domain.Models.Users.UserGetParams.Page">
+            <summary>
+            Página da requisição
+            </summary>
+        </member>
+    </members>
+</doc>
